@@ -33,7 +33,7 @@ public abstract class AbstractCommand
 
     @ExperimentalCommandDescriptors
     override val prefixOptional: Boolean
-        get() = false
+        get() = true
 
     init {
         Command.checkCommandName(primaryName)
